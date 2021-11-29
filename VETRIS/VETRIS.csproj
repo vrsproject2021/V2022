@@ -164,6 +164,7 @@
     <Content Include="AP\VRSRadiologistAdhocPayment.aspx" />
     <Content Include="AP\VRSRadiologistPayment.aspx" />
     <Content Include="AP\VRSTranscriptionistPayment.aspx" />
+    <Content Include="BourntecLogin.aspx" />
     <Content Include="CaseList\ckeditor\adapters\jquery.js" />
     <Content Include="CaseList\ckeditor\CHANGES.html" />
     <Content Include="CaseList\ckeditor\ckeditor.asp" />
@@ -1466,6 +1467,10 @@
     <Content Include="Common\VRSNotes.aspx" />
     <Content Include="Common\VRSUploader.aspx" />
     <Content Include="css\bootstrap3.3.6.min.css" />
+    <Content Include="css\bournCss\dark-them-responsive.css" />
+    <Content Include="css\bournCss\dark-them-style.css" />
+    <Content Include="css\bournCss\responsive.css" />
+    <Content Include="css\bournCss\style.css" />
     <Content Include="css\common\common.css" />
     <Content Include="css\common\metisMenu\metisMenu-vertical.css" />
     <Content Include="css\common\metisMenu\metisMenu.min.css" />
@@ -1568,6 +1573,46 @@
     <Content Include="htmls\fax.html" />
     <Content Include="htmls\RTFFile.html" />
     <Content Include="images\baddate_dark.gif" />
+    <Content Include="images\bourntecImages\account-payables-icon.svg" />
+    <Content Include="images\bourntecImages\account-receivable-icon.svg" />
+    <Content Include="images\bourntecImages\cast-list.svg" />
+    <Content Include="images\bourntecImages\contact-top-icon.svg" />
+    <Content Include="images\bourntecImages\dark cast-list.svg" />
+    <Content Include="images\bourntecImages\dark-account-payables-icon.svg" />
+    <Content Include="images\bourntecImages\dark-account-receivable-icon.svg" />
+    <Content Include="images\bourntecImages\dark-dashboard.svg" />
+    <Content Include="images\bourntecImages\dark-download-dicom-icon.svg" />
+    <Content Include="images\bourntecImages\dark-house-keeping-icon.svg" />
+    <Content Include="images\bourntecImages\dark-manage-radio-icon.svg" />
+    <Content Include="images\bourntecImages\dark-masters.svg" />
+    <Content Include="images\bourntecImages\dark-menu-report-icon.svg" />
+    <Content Include="images\bourntecImages\dark-my-transactions-icons.svg" />
+    <Content Include="images\bourntecImages\dark-quick-report-icon.svg" />
+    <Content Include="images\bourntecImages\dark-settings.svg" />
+    <Content Include="images\bourntecImages\dark-side-bar-menu.svg" />
+    <Content Include="images\bourntecImages\dark-upload-profile-icon.svg" />
+    <Content Include="images\bourntecImages\dashboard.svg" />
+    <Content Include="images\bourntecImages\download-dicom-icon.svg" />
+    <Content Include="images\bourntecImages\helpicon.svg" />
+    <Content Include="images\bourntecImages\house-keeping-icon.svg" />
+    <Content Include="images\bourntecImages\login-bg.svg" />
+    <Content Include="images\bourntecImages\logo-blue.svg" />
+    <Content Include="images\bourntecImages\logo-white.svg" />
+    <Content Include="images\bourntecImages\logo.svg" />
+    <Content Include="images\bourntecImages\manage-radio-icon.svg" />
+    <Content Include="images\bourntecImages\Masters.svg" />
+    <Content Include="images\bourntecImages\menu-report-icon.svg" />
+    <Content Include="images\bourntecImages\my-transactions-icons.svg" />
+    <Content Include="images\bourntecImages\my-transactions-icons1.svg" />
+    <Content Include="images\bourntecImages\profile-top.png" />
+    <Content Include="images\bourntecImages\quick-report-icon.svg" />
+    <Content Include="images\bourntecImages\settings.svg" />
+    <Content Include="images\bourntecImages\side-bar-menu.svg" />
+    <Content Include="images\bourntecImages\upload-profile-icon.svg" />
+    <Content Include="images\bourntecImages\veterinary-img1.png" />
+    <Content Include="images\bourntecImages\veterinary-img2.png" />
+    <Content Include="images\bourntecImages\veterinary-img3.png" />
+    <Content Include="images\bourntecImages\veterinary-img4.png" />
     <Content Include="images\chat_Icon.png" />
     <Content Include="images\Dashboard-120x60.png" />
     <Content Include="images\dashboard-icon.png" />
@@ -3325,6 +3370,13 @@
     </Compile>
     <Compile Include="AP\VRSTranscriptionistPayment.aspx.designer.cs">
       <DependentUpon>VRSTranscriptionistPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BourntecLogin.aspx.cs">
+      <DependentUpon>BourntecLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BourntecLogin.aspx.designer.cs">
+      <DependentUpon>BourntecLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="CaseList\DICOMUploader.ascx.cs">
       <DependentUpon>DICOMUploader.ascx</DependentUpon>

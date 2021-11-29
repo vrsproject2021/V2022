@@ -1,4 +1,5 @@
-﻿var strRowID = "0"; 
+﻿var strRowID = "0";
+alert('h')';'
 function view_Searchform() {
     $("#searchSection").slideToggle(800);
     $("#searchIcon").toggleClass("icon", 800);
@@ -50,7 +51,7 @@ function btnSave_OnClick() {
         ArrRecords = GetRecords();
 
         AjaxPro.timeoutPeriod = 1800000;
-        VRSUserRole.SaveRecord(ArrRecords, arrParams, ShowProcess);
+        VRSUserRole.btnSave(ArrRecords, arrParams, ShowProcess);
        
        
     }

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VETRIS {
-    
-    
-    public partial class VRSLogin {
-        
+namespace VETRIS
+{
+
+
+    public partial class VRSLogin
+    {
+
         /// <summary>
         /// lnkLOGIN control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlLink lnkLOGIN;
-        
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// imgLogo control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlImage imgLogo;
-        
+
         /// <summary>
         /// lblAppName control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAppName;
-        
+
         /// <summary>
         /// txtLoginID control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtLoginID;
-        
+
         /// <summary>
         /// txtPwd control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPwd;
-        
+
         /// <summary>
         /// chkRemember control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox chkRemember;
-        
+
         /// <summary>
         /// btnLogin control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlButton btnLogin;
-        
+
         /// <summary>
         /// lblVersion control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblVersion;
-        
+
         /// <summary>
         /// hdnError control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnError;
-        
+
         /// <summary>
         /// hdnDivider control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnDivider;
-        
+
         /// <summary>
         /// hdnDBVer control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnDBVer;
-        
+
         /// <summary>
         /// hdnRootDirectory control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnRootDirectory;
-        
+
         /// <summary>
         /// hdnMailTaskRefNo control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnMailTaskRefNo;
-        
+
         /// <summary>
         /// hdnMailAssignType control.
         /// </summary>
@@ -146,7 +148,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnMailAssignType;
-        
+
         /// <summary>
         /// hdnUID control.
         /// </summary>
@@ -155,7 +157,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnUID;
-        
+
         /// <summary>
         /// hdnPwd control.
         /// </summary>
@@ -164,7 +166,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnPwd;
-        
+
         /// <summary>
         /// hdnTheme control.
         /// </summary>
@@ -173,7 +175,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnTheme;
-        
+
         /// <summary>
         /// hdnInstCode control.
         /// </summary>
@@ -182,7 +184,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnInstCode;
-        
+
         /// <summary>
         /// hdnMenuID control.
         /// </summary>
@@ -191,7 +193,7 @@ namespace VETRIS {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnMenuID;
-        
+
         /// <summary>
         /// hdnTempInstID control.
         /// </summary>

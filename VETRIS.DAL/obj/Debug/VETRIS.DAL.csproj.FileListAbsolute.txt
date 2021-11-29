@@ -27,3 +27,8 @@ D:\myWorkFolder\Vetris\VETRIS_SOURCE_CODE-master\VETRIS.DAL\bin\Debug\VETRIS.DAL
 D:\myWorkFolder\Vetris\VETRIS_SOURCE_CODE-master\VETRIS.DAL\obj\Debug\VETRIS.DAL.csproj.CoreCompileInputs.cache
 D:\myWorkFolder\Vetris\VETRIS_SOURCE_CODE-master\VETRIS.DAL\obj\Debug\VETRIS.DAL.dll
 D:\myWorkFolder\Vetris\VETRIS_SOURCE_CODE-master\VETRIS.DAL\obj\Debug\VETRIS.DAL.pdb
+D:\myWorkFolder\VetrisGIT\VETRIS.DAL\bin\Debug\VETRIS.DAL.dll
+D:\myWorkFolder\VetrisGIT\VETRIS.DAL\bin\Debug\VETRIS.DAL.pdb
+D:\myWorkFolder\VetrisGIT\VETRIS.DAL\obj\Debug\VETRIS.DAL.csproj.CoreCompileInputs.cache
+D:\myWorkFolder\VetrisGIT\VETRIS.DAL\obj\Debug\VETRIS.DAL.dll
+D:\myWorkFolder\VetrisGIT\VETRIS.DAL\obj\Debug\VETRIS.DAL.pdb
