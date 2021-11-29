@@ -164,6 +164,7 @@
     <Content Include="AP\VRSRadiologistAdhocPayment.aspx" />
     <Content Include="AP\VRSRadiologistPayment.aspx" />
     <Content Include="AP\VRSTranscriptionistPayment.aspx" />
+    <Content Include="bourncasestudy.aspx" />
     <Content Include="bournChat.aspx" />
     <Content Include="BourntecLogin.aspx" />
     <Content Include="CaseList\ckeditor\adapters\jquery.js" />
@@ -3371,6 +3372,13 @@
     </Compile>
     <Compile Include="AP\VRSTranscriptionistPayment.aspx.designer.cs">
       <DependentUpon>VRSTranscriptionistPayment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bourncasestudy.aspx.cs">
+      <DependentUpon>bourncasestudy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bourncasestudy.aspx.designer.cs">
+      <DependentUpon>bourncasestudy.aspx</DependentUpon>
     </Compile>
     <Compile Include="bournChat.aspx.cs">
       <DependentUpon>bournChat.aspx</DependentUpon>
