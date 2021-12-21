@@ -28,8 +28,8 @@ namespace VETRIS.CaseList
         {
             AjaxPro.Utility.RegisterTypeForAjax(typeof(VRSManualSubmissionUploadFile));
             SetAttributes();
-            if ((!CallBackSF.CausedCallback))
-                SetPageValue();
+            //if ((!CallBackSF.CausedCallback))
+            //    SetPageValue();
         }
         #endregion
 
@@ -50,15 +50,15 @@ namespace VETRIS.CaseList
         {
             //Guid UserID = new Guid(Request.QueryString["uid"]);
 
-           // Guid InstID = new Guid(Request.QueryString["InstID"]);
+            // Guid InstID = new Guid(Request.QueryString["InstID"]);
             Guid UserID = new Guid(Request.QueryString["uid"]);
             string strTheme = Request.QueryString["th"];
-            
 
-           // hdnRegInstitutionId.Value = InstID.ToString();
+
+            // hdnRegInstitutionId.Value = InstID.ToString();
             objComm = new classes.CommonClass();
             objComm.SetRegionalFormat();
-            
+
             objComm = null;
             hdnFilePath.Value = Server.MapPath("~");
             hdnTempFolder.Value = Server.MapPath("~") + "/CaseList/MSTemp/" + UserID.ToString();
@@ -97,9 +97,9 @@ namespace VETRIS.CaseList
                     ClearFiles(e.Parameters);
                     break;
             }
-            grdSF.Width = Unit.Percentage(100);
-            grdSF.RenderControl(e.Output);
-            spnERR.RenderControl(e.Output);
+            //grdSF.Width = Unit.Percentage(100);
+            //grdSF.RenderControl(e.Output);
+            //spnERR.RenderControl(e.Output);
         }
         #endregion
 
@@ -114,7 +114,7 @@ namespace VETRIS.CaseList
             int intSrl = 0;
             string strFile = string.Empty;
             string strMimeType = string.Empty;
-            string strUserID=arrParams[3];
+            string strUserID = arrParams[3];
 
             try
             {
@@ -128,7 +128,7 @@ namespace VETRIS.CaseList
                             DataRow dr = dtbl.NewRow();
                             intSrl = intSrl + 1;
                             dr["file_srl_no"] = intSrl;
-                            dr["file_name"] = strFile =arrRecords[i + 1].Trim().Substring(arrRecords[i + 1].Trim().LastIndexOf("/") + 1, (arrRecords[i + 1].Trim().Length - (arrRecords[i + 1].Trim().LastIndexOf("/") + 1)));
+                            dr["file_name"] = strFile = arrRecords[i + 1].Trim().Substring(arrRecords[i + 1].Trim().LastIndexOf("/") + 1, (arrRecords[i + 1].Trim().Length - (arrRecords[i + 1].Trim().LastIndexOf("/") + 1)));
                             dr["file_type"] = arrRecords[i + 2].Trim();
                             if (arrRecords[i + 2].Trim() == "D") dr["file_type_desc"] = "DICOM";
                             else if (arrRecords[i + 2].Trim() == "I")
@@ -149,7 +149,7 @@ namespace VETRIS.CaseList
                                         dr["file_type_desc"] = "BMP";
                                         break;
                                 }
-                                
+
                             }
                             else if (arrRecords[i + 2].Trim() == "P") dr["file_type_desc"] = "PDF";
 
@@ -191,16 +191,16 @@ namespace VETRIS.CaseList
                     dtbl.Rows.Add(drNew);
                 }
 
-                grdSF.DataSource = dtbl;
-                grdSF.DataBind();
-                spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"\" />";
+                //grdSF.DataSource = dtbl;
+                //grdSF.DataBind();
+                //spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"\" />";
 
-                
+
             }
             catch (Exception ex)
             {
-                spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"" + ex.Message.Trim() + "\" />";
-               
+                //spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"" + ex.Message.Trim() + "\" />";
+
             }
             finally
             {
@@ -249,9 +249,9 @@ namespace VETRIS.CaseList
                     }
                 }
 
-                grdSF.DataSource = dtbl;
-                grdSF.DataBind();
-                spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"\" />";
+                //grdSF.DataSource = dtbl;
+                //grdSF.DataBind();
+                //spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"\" />";
 
 
                 if (strFileName.Trim() != string.Empty)
@@ -265,7 +265,7 @@ namespace VETRIS.CaseList
             }
             catch (Exception ex)
             {
-                spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"" + ex.Message.Trim() + "\" />";
+                //spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"" + ex.Message.Trim() + "\" />";
             }
             finally
             {
@@ -308,12 +308,13 @@ namespace VETRIS.CaseList
 
                 grdSF.DataSource = dtbl;
                 grdSF.DataBind();
-                spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"\" />";
+                //spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"\" />";
 
             }
             catch (Exception ex)
             {
-                spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"" + ex.Message.Trim() + "\" />";
+
+                //spnERR.InnerHtml = "<input type=\"hidden\" id=\"hdnCBErr\" value=\"" + ex.Message.Trim() + "\" />";
             }
             finally
             {
@@ -340,7 +341,7 @@ namespace VETRIS.CaseList
 
         #region GetStudyDetails (Ajaxpro Method)
         [AjaxPro.AjaxMethod()]
-        public string[] GetStudyDetails(string[] arrFiles,string strUserID)
+        public string[] GetStudyDetails(string[] arrFiles, string strUserID)
         {
             bool bReturn = false; bool bFileValid = true;
             string[] arrRet = new string[0];
@@ -378,13 +379,13 @@ namespace VETRIS.CaseList
             try
             {
                 objComm.SetRegionalFormat();
-                for (int i = 0; i < arrFiles.Length; i=i+4)
+                for (int i = 0; i < arrFiles.Length; i = i + 4)
                 {
                     if (arrFiles[i + 2].Trim() == "D")
                     {
                         strFile = arrFiles[i + 1].Trim();
                         strFilePath = Server.MapPath("~") + "/CaseList/MSTemp/" + strUserID + "/" + strFile;
-                        strFilePath = strFilePath.Replace ("ajaxpro\\",string.Empty);
+                        strFilePath = strFilePath.Replace("ajaxpro\\", string.Empty);
 
                         dd.DicomFileName = strFilePath;
                         List<string> str = dd.dicomInfo;
@@ -415,7 +416,7 @@ namespace VETRIS.CaseList
                             }
 
                             strDt = arr[4].Trim();
-                            if ((arr[4].Trim().Substring(0,10) == "0000-00-00") || (arr[4].Trim() == string.Empty)) dtStudy = DateTime.Now;
+                            if ((arr[4].Trim().Substring(0, 10) == "0000-00-00") || (arr[4].Trim() == string.Empty)) dtStudy = DateTime.Now;
                             else
                             {
                                 arrDateTime = arr[4].Trim().Split(' ');
@@ -435,7 +436,7 @@ namespace VETRIS.CaseList
                                 }
                             }
 
-                                                      
+
 
                             strAccnNo = arr[6].Trim();
                             strRefPhys = arr[7].Trim();
@@ -470,7 +471,7 @@ namespace VETRIS.CaseList
                             arrRet[2] = strPatientID.Trim();
                             arrRet[3] = strPatientFname.Trim();
                             arrRet[4] = strPatientLname.Trim();
-                            arrRet[5] = objComm.IMDateFormat(dtStudy,objComm.DateFormat) + " " + objComm.padZero(dtStudy.Hour) + ":" + objComm.padZero(dtStudy.Minute);
+                            arrRet[5] = objComm.IMDateFormat(dtStudy, objComm.DateFormat) + " " + objComm.padZero(dtStudy.Hour) + ":" + objComm.padZero(dtStudy.Minute);
                             arrRet[6] = strAccnNo.Trim();
                             arrRet[7] = strReason.Trim();
                             arrRet[8] = objComm.IMDateFormat(dtDOB, objComm.DateFormat);
@@ -480,7 +481,7 @@ namespace VETRIS.CaseList
                         }
                         else
                         {
-                            arrRet= new string[3];
+                            arrRet = new string[3];
                             arrRet[0] = "false";
                             arrRet[1] = "391";
                             arrRet[2] = strFile;
@@ -489,9 +490,9 @@ namespace VETRIS.CaseList
                         break;
                     }
                 }
-                
 
-                
+
+
 
             }
             catch (Exception expErr)
@@ -504,9 +505,8 @@ namespace VETRIS.CaseList
             finally
             {
                 objCore = null; objComm = null; dd = null;
-                strReturnMsg = null; strCatchMessage = null;
             }
-            return arrRet;
+                        return arrRet;
         }
         #endregion
 
@@ -796,5 +796,85 @@ namespace VETRIS.CaseList
         #endregion
 
         #endregion
+
+        protected void UploadBtn_Click(object sender, EventArgs e)
+        {
+            Guid UserID = new Guid();
+          
+                if (Request.QueryString["uid"] != null)
+                    UserID = new Guid(Request.QueryString["uid"].ToString());
+
+            if (!Directory.Exists(Server.MapPath("~/CaseList/MSTemp/" + UserID.ToString())))
+            {
+                Directory.CreateDirectory(Server.MapPath("~/CaseList/MSTemp/" + UserID.ToString()));
+            }
+
+            if (FileUpLoad1.HasFile)
+            {
+              
+
+                FileUpLoad1.SaveAs(Server.MapPath("~") + "/CaseList/MSTemp/" + UserID + "/" + FileUpLoad1.FileName);
+                Label1.Text = "File Uploaded: " + FileUpLoad1.FileName;
+                BindGrid();
+            }
+            else
+            {
+                Label1.Text = "No File Uploaded.";
+            }
+
+        }
+        private void BindGrid()
+        {
+
+            Guid UserID = new Guid();
+            if (Request.QueryString["uid"] != null)
+                UserID = new Guid(Request.QueryString["uid"].ToString());
+            string FilePath = Server.MapPath("~") + "/CaseList/MSTemp/" + UserID + "/";
+            string[] filesLoc = Directory.GetFiles(FilePath);
+            //List<ListItem> files = new List<ListItem>();
+            List<FileDet> lfile = new List<FileDet>();
+            int i = 1;
+
+
+
+
+            foreach (string file in filesLoc)
+            {
+                //Path.GetExtension(file);
+                FileDet objFile = new FileDet(i, Path.GetFileName(file),"D","DICOM" );
+                lfile.Add(objFile);
+                i++;
+            }
+            grdSF.DataSource = lfile;
+            grdSF.DataBind();
+
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+            
+             Guid UserID = new Guid(Session["uid"].ToString());
+            string selTheme = string.Empty;
+            Response.Redirect("VRSManualSubmission.aspx?uid=" + UserID + "&th=" + selTheme);
+        }
+    }
+
+    public class FileDet
+    {
+        public int ID { get; set; }
+        public string FileName { get; set; }
+        public string FileType { get; set; }
+        public string FilefulType { get; set; }
+        public FileDet(int id, string filename, string filetype,string fullfilename)
+        {
+            this.ID = id;
+            this.FileName = filename;
+            this.FileType = filetype;
+            this.FilefulType = fullfilename;
+        }
+
+
     }
 }

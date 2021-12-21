@@ -16,7 +16,10 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
     <link href="../css/font-awesome.min.css" rel="stylesheet" />
     <link href="../css/responsive.css" rel="stylesheet" />
-     <link id="lnkSTYLE" runat="server" href = "../css/style.css" rel="stylesheet" type="text/css" />
+    <link href = "../css/style.css" rel="stylesheet" type="text/css" />
+    <link href = "../css/CalendarStyle.css" rel="stylesheet" type="text/css" />
+    <link href = "../css/grid_style.css" rel="stylesheet" type="text/css" />
+    <link id="lnkSTYLE" runat="server" href = "../css/style.css" rel="stylesheet" type="text/css" />
     <link id="lnkCAL" runat="server" href = "../css/CalendarStyle.css" rel="stylesheet" type="text/css" />
     <link id="lnkGRID" runat="server" href = "../css/grid_style.css" rel="stylesheet" type="text/css" />
 

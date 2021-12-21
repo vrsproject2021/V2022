@@ -178,14 +178,6 @@ namespace VETRIS.CaseList
         }
         #endregion
 
-        protected void btndicomUpload_Click(object sender, EventArgs e)
-        {
-            string strServerPath = hdnDirName.Value;
-
-        }
-
-
-
         #region CloseUploadWindow
         private void CloseUploadWindow(string strFileName, string DocName, string Mode)
         {

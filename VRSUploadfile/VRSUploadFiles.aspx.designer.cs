@@ -7,13 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VETRIS.CaseList
-{
-
-
-    public partial class VRSUploadFiles
-    {
-
+namespace VETRIS.CaseList {
+    
+    
+    public partial class VRSUploadFiles {
+        
         /// <summary>
         /// lnkSTYLE control.
         /// </summary>
@@ -22,7 +20,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlLink lnkSTYLE;
-
+        
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -31,7 +29,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-
+        
         /// <summary>
         /// lblUploadHelpStart control.
         /// </summary>
@@ -40,7 +38,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUploadHelpStart;
-
+        
         /// <summary>
         /// lblUploadHelpDoc control.
         /// </summary>
@@ -49,7 +47,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUploadHelpDoc;
-
+        
         /// <summary>
         /// lblUploadHelpImg control.
         /// </summary>
@@ -58,7 +56,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUploadHelpImg;
-
+        
         /// <summary>
         /// lblUploadHelpSize control.
         /// </summary>
@@ -67,7 +65,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUploadHelpSize;
-
+        
         /// <summary>
         /// lblUploadHelpEnd control.
         /// </summary>
@@ -76,7 +74,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblUploadHelpEnd;
-
+        
         /// <summary>
         /// flUpload control.
         /// </summary>
@@ -85,7 +83,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FileUpload flUpload;
-
+        
         /// <summary>
         /// btnUpload control.
         /// </summary>
@@ -94,7 +92,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnUpload;
-
+        
         /// <summary>
         /// txtDocName control.
         /// </summary>
@@ -103,7 +101,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDocName;
-
+        
         /// <summary>
         /// lblError control.
         /// </summary>
@@ -112,7 +110,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblError;
-
+        
         /// <summary>
         /// hdnDirName control.
         /// </summary>
@@ -121,7 +119,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnDirName;
-
+        
         /// <summary>
         /// hdnUploadType control.
         /// </summary>
@@ -130,7 +128,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnUploadType;
-
+        
         /// <summary>
         /// hdnFileID control.
         /// </summary>
@@ -139,7 +137,7 @@ namespace VETRIS.CaseList
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.HiddenField hdnFileID;
-
+        
         /// <summary>
         /// hdnReturn control.
         /// </summary>

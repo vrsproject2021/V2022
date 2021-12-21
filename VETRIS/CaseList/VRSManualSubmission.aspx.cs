@@ -1476,16 +1476,19 @@ namespace VETRIS.CaseList
                         str = dd.dicomInfo;
                         if ((GetStudyUID(str).Trim() != strSUID) || (GetInstitutionName(str).Trim() != strInsName))
                         {
-                            bFileValid = false;
+                             bFileValid = true;
+
+                            //bFileValid = false;
                             strReturnMsg = strOutputMsg;
                         }
                         else
-                            bFileValid = true;
+                            bFileValid = false;
+                        //bFileValid = true;
                     }
                     #endregion
 
 
-                    if (bFileValid)
+                        if (bFileValid)
                     {
                         objDCM[i] = new Core.Case.HeaderDICOMList();
                         objDCM[i].SERIAL_NUMBER = intDCMSrl + 1;

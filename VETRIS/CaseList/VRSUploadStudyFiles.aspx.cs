@@ -12,13 +12,13 @@ namespace VETRIS.CaseList
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(Request.QueryString["path"]==null) Uploader1.FILE_PATH_TO_SAVE = Server.MapPath("~") + "/CaseList/MSTemp";
-            else Uploader1.FILE_PATH_TO_SAVE = Server.MapPath("~") + "/" + Request.QueryString["path"].Replace("_","/");
-            string strTheme = Request.QueryString["th"];
-            Uploader1.FOLDER_USER_ID = Request.QueryString["uid"];
-            Uploader1.THEME = strTheme;
+            //if(Request.QueryString["path"]==null) Uploader1.FILE_PATH_TO_SAVE = Server.MapPath("~") + "/CaseList/MSTemp";
+            //else Uploader1.FILE_PATH_TO_SAVE = Server.MapPath("~") + "/" + Request.QueryString["path"].Replace("_","/");
+            //string strTheme = Request.QueryString["th"];
+            //Uploader1.FOLDER_USER_ID = Request.QueryString["uid"];
+            //Uploader1.THEME = strTheme;
 
-            SetCSS(strTheme);
+            //SetCSS(strTheme);
         }
 
         #region SetCSS
@@ -29,5 +29,21 @@ namespace VETRIS.CaseList
 
         }
         #endregion
+
+        protected void UploadBtn_Click(object sender, EventArgs e)
+        {
+           
+                if (FileUpLoad1.HasFile)
+                {
+
+                FileUpLoad1.SaveAs(Server.MapPath("~") + "/CaseList/MSTemp" + FileUpLoad1.FileName);
+                    Label1.Text = "File Uploaded: " + FileUpLoad1.FileName;
+                }
+                else
+                {
+                    Label1.Text = "No File Uploaded.";
+                }
+            
+        }
     }
 }

@@ -104,11 +104,12 @@
             var data = new FormData();
             var size = 0;
             var files = $("#fUpload").get(0).files;
+            
             for (var i = 0; i < files.length; i++) {
                 size = size + files[i].size;
                 data.append(files[i].name, files[i]);
             }
-            //debugger;
+            debugger;
             data.append("tmpPath", objhdnPathToSave.value);
             data.append("uid", objhdnUserID.value);
             //if (size <= 104251492)
@@ -120,7 +121,7 @@
                         $("#progressbar").progressbar("value", progress);
                     }
                 }, false);
-
+                alert("test" +  data);
                 xhr.open("POST", "StudyFilesUploadHandler.ashx");
                 xhr.onreadystatechange = ClientSideUpdate;
                 xhr.send(data);

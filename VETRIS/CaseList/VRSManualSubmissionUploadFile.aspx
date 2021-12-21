@@ -5,7 +5,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-     <title></title>
+    <title></title>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="description" content="" />
@@ -64,12 +64,17 @@
                     <div class="row" id="divDCMUpload" style="display: block;">
                         <div class="col-sm-6 col-xs-12">
                             <div style="border: solid 1px #bbb;">
-                                <iframe id="iframeUploadSF" scrolling="no" style="width: 100%; height: auto; background-color: transparent; border: none; min-height: 185px;padding:0px;"></iframe>
+<%--                                <iframe id="iframeUploadSF" scrolling="no" style="width: 100%; height: auto; background-color: transparent; border: none; min-height: 185px;padding:0px;"></iframe>--%>
+                            <asp:FileUpload id="FileUpLoad1" runat="server" accept="*/dicom,.dcm, image/dcm, */dcm, .dicom" />
+                            <asp:Button id="UploadBtn" Text="Upload File" OnClick="UploadBtn_Click" runat="server" Width="105px" />
+                            <asp:Label ID="Label1" runat="server"  Font-Size="small" Text="Label"></asp:Label> 
+                            
                             </div>
                         </div>
-                        <div class="col-sm-6 col-xs-12 marginMobileTP5">
+                        <div class="col-sm-6 col-xs-12 marginMobileTP5" >
                             <div class="table-responsive">
-                                <ComponentArt:CallBack ID="CallBackSF" runat="server" OnCallback="CallBackSF_Callback">
+<%--                               <asp:GridView ID="grdSF" AllowPaging="true" PageSize="5"   runat="server"></asp:GridView>--%>
+                               <ComponentArt:CallBack ID="CallBackSF" runat="server" OnCallback="CallBackSF_Callback">
                                     <Content>
                                         <ComponentArt:Grid
                                             ID="grdSF"
@@ -127,10 +132,10 @@
                                                         <ComponentArt:GridConditionalFormat ClientFilter="((DataItem.get_index() + grdSF.get_recordOffset()) % 2) == 0" RowCssClass="Row" SelectedRowCssClass="Row" />
                                                     </ConditionalFormats>
                                                     <Columns>
-                                                        <ComponentArt:GridColumn DataField="file_srl_no" Align="left" HeadingText="#" AllowGrouping="false" Width="30" />
-                                                        <ComponentArt:GridColumn DataField="file_name" Align="left" HeadingText="File Name" AllowGrouping="false" Width="250" DataCellClientTemplateId="STUDYFILE" FixedWidth="True" />
-                                                        <ComponentArt:GridColumn DataField="file_type" Align="left" HeadingText="#" AllowGrouping="false" Visible="false"/>
-                                                        <ComponentArt:GridColumn DataField="file_type_desc" Align="left" HeadingText="File Type" AllowGrouping="false" Width="100"/>
+                                                        <ComponentArt:GridColumn DataField="ID" Align="left" HeadingText="#" AllowGrouping="false" Width="30" />
+                                                        <ComponentArt:GridColumn DataField="FileName" Align="left" HeadingText="File Name" AllowGrouping="false" Width="250" DataCellClientTemplateId="STUDYFILE" FixedWidth="True" />
+                                                        <ComponentArt:GridColumn DataField="FileType" Align="left" HeadingText="#" AllowGrouping="false" Visible="false"/>
+                                                        <ComponentArt:GridColumn DataField="FilefulType" Align="left" HeadingText="File Type" AllowGrouping="false" Width="100"/>
                                                         <ComponentArt:GridColumn Align="center" AllowGrouping="false" DataCellClientTemplateId="DELDCM" HeadingText=" " FixedWidth="True" Width="30" />
                                                     </Columns>
 
@@ -142,10 +147,10 @@
                                             </ClientEvents>
                                             <ClientTemplates>
                                                 <ComponentArt:ClientTemplate ID="STUDYFILE">
-                                                    <span id="spnSF_## DataItem.GetMember('file_srl_no').Value ##" title="## DataItem.GetMember('file_name').Value ##">## DataItem.GetMember('file_name').Value ##</span>
+                                                    <span id="spnSF_## DataItem.GetMember('ID').Value ##" title="## DataItem.GetMember('FileName').Value ##">## DataItem.GetMember('FileName').Value ##</span>
                                                 </ComponentArt:ClientTemplate>
                                                 <ComponentArt:ClientTemplate ID="DELDCM">
-                                                    <button type="button" id="btnDelDCM_## DataItem.GetMember('file_srl_no').Value ##" class="btn btn-danger btn_grd" onclick="javascript:DeleteStudyFile('## DataItem.GetMember('file_srl_no').Value ##')">
+                                                    <button type="button" id="btnDelDCM_## DataItem.GetMember('ID').Value ##" class="btn btn-danger btn_grd" onclick="javascript:DeleteStudyFile('## DataItem.GetMember('ID').Value ##')">
                                                         <i class="fa fa-trash" aria-hidden="true"></i>
 
                                                     </button>
@@ -189,10 +194,9 @@
                         </div>
 
                         <div class="col-sm-9 col-xs-12 text-right">
+                           
                             <button type="button" class="btn btn-custon-four btn-success" id="btnSubmit2" runat="server">
-                                <i class="fa fa-thumbs-o-up edu-danger-error" aria-hidden="true"></i>&nbsp;CONTINUE
-                                       
-                            </button>
+                                <i class="fa fa-thumbs-o-up edu-danger-error" aria-hidden="true"></i>&nbsp;CONTINUE</button>
                             <button type="button" class="btn btn-custon-four btn-danger" id="btnClose2" runat="server">
                                 <i class="fa fa-times edu-danger-error" aria-hidden="true"></i>&nbsp;Close     
                             </button>

@@ -6,6 +6,7 @@ using System.IO;
 using System.Collections;
 using System.Text;
 using VETRIS.Core;
+using System.Diagnostics;
 
 namespace VETRIS.CaseList
 {
@@ -30,14 +31,14 @@ namespace VETRIS.CaseList
             string strFileList = string.Empty;
             string[] arrFiles = new string[0];
             string[] arrFilesDel = new string[0];
-
+            //Debugger.Break();
             HttpFileCollection files = context.Request.Files;
             arrFiles = new string[files.Count];
             objComm = new classes.CommonClass();
             pathToUpload = pathToUpload.Replace("\\", "/");
-
+            
             if (!Directory.Exists(pathToUpload)) { Directory.CreateDirectory(pathToUpload); }
-
+            Debug.Write(pathToUpload);
             foreach (string key in files)
             {
                 HttpPostedFile file = files[key];
@@ -68,8 +69,10 @@ namespace VETRIS.CaseList
                 strFileName = strFileName.Replace("__", "_");
                 
                 strRandomPrev = strRandom;
+                Debug.Assert(intIdx < 10);
                 strFileWithPath = pathToUpload + "/" + strFileName;
                 file.SaveAs(strFileWithPath);
+                Debug.Assert(intIdx < 10);
                 strFileWithPath = strFileWithPath.Replace("\\", "/");
                 arrFiles[intIdx] = strFileWithPath;
                 intIdx = intIdx + 1;

@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace VETRIS.CaseList {
-    
-    
-    public partial class VRSManualSubmission {
-        
+namespace VETRIS.CaseList
+{
+
+
+    public partial class VRSManualSubmission
+    {
+
         /// <summary>
         /// lnkSTYLE control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlLink lnkSTYLE;
-        
+
         /// <summary>
         /// lnkCAL control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlLink lnkCAL;
-        
+
         /// <summary>
         /// lnkGRID control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlLink lnkGRID;
-        
+
         /// <summary>
         /// form1 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
+
         /// <summary>
         /// btnSubmit1 control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlButton btnSubmit1;
-        
+
         /// <summary>
         /// btnClose1 control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlButton btnClose1;
-        
+
         /// <summary>
         /// txtPFName control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPFName;
-        
+
         /// <summary>
         /// txtPLName control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPLName;
-        
+
         /// <summary>
         /// ddlSex control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlSex;
-        
+
         /// <summary>
         /// txtOwnerFN control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtOwnerFN;
-        
+
         /// <summary>
         /// txtOwnerLN control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtOwnerLN;
-        
+
         /// <summary>
         /// ddlSN control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlSN;
-        
+
         /// <summary>
         /// ddlCountry control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlCountry;
-        
+
         /// <summary>
         /// ddlState control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlState;
-        
+
         /// <summary>
         /// txtCity control.
         /// </summary>
@@ -146,7 +148,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtCity;
-        
+
         /// <summary>
         /// txtPWt control.
         /// </summary>
@@ -155,7 +157,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPWt;
-        
+
         /// <summary>
         /// ddlUOM control.
         /// </summary>
@@ -164,7 +166,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlUOM;
-        
+
         /// <summary>
         /// ddlDOBMonth control.
         /// </summary>
@@ -173,7 +175,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlDOBMonth;
-        
+
         /// <summary>
         /// ddlDOBDay control.
         /// </summary>
@@ -182,7 +184,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlDOBDay;
-        
+
         /// <summary>
         /// ddlDOBYear control.
         /// </summary>
@@ -191,7 +193,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlDOBYear;
-        
+
         /// <summary>
         /// txtAge control.
         /// </summary>
@@ -200,7 +202,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtAge;
-        
+
         /// <summary>
         /// ddlSpecies control.
         /// </summary>
@@ -209,7 +211,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlSpecies;
-        
+
         /// <summary>
         /// ddlBreed control.
         /// </summary>
@@ -218,7 +220,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlBreed;
-        
+
         /// <summary>
         /// txtDOS control.
         /// </summary>
@@ -227,7 +229,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtDOS;
-        
+
         /// <summary>
         /// imgDOS control.
         /// </summary>
@@ -236,7 +238,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlImage imgDOS;
-        
+
         /// <summary>
         /// CalDOS control.
         /// </summary>
@@ -245,7 +247,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.Calendar CalDOS;
-        
+
         /// <summary>
         /// ddlHr control.
         /// </summary>
@@ -254,7 +256,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlHr;
-        
+
         /// <summary>
         /// ddlMin control.
         /// </summary>
@@ -263,7 +265,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlMin;
-        
+
         /// <summary>
         /// txtPID control.
         /// </summary>
@@ -272,7 +274,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPID;
-        
+
         /// <summary>
         /// txtAccnNo control.
         /// </summary>
@@ -281,7 +283,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtAccnNo;
-        
+
         /// <summary>
         /// txtReason control.
         /// </summary>
@@ -290,7 +292,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtReason;
-        
+
         /// <summary>
         /// txtPhysNote control.
         /// </summary>
@@ -299,7 +301,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtPhysNote;
-        
+
         /// <summary>
         /// ddlModality control.
         /// </summary>
@@ -308,7 +310,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlModality;
-        
+
         /// <summary>
         /// ddlPriority control.
         /// </summary>
@@ -317,7 +319,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlPriority;
-        
+
         /// <summary>
         /// CallBackST control.
         /// </summary>
@@ -326,7 +328,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.CallBack CallBackST;
-        
+
         /// <summary>
         /// grdST control.
         /// </summary>
@@ -335,7 +337,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.Grid grdST;
-        
+
         /// <summary>
         /// SELST control.
         /// </summary>
@@ -344,7 +346,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.ClientTemplate SELST;
-        
+
         /// <summary>
         /// spnErrST control.
         /// </summary>
@@ -353,7 +355,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl spnErrST;
-        
+
         /// <summary>
         /// spnTrackBy control.
         /// </summary>
@@ -362,7 +364,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl spnTrackBy;
-        
+
         /// <summary>
         /// spnInvBy control.
         /// </summary>
@@ -371,7 +373,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl spnInvBy;
-        
+
         /// <summary>
         /// CallBackSelST control.
         /// </summary>
@@ -380,7 +382,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.CallBack CallBackSelST;
-        
+
         /// <summary>
         /// grdSelST control.
         /// </summary>
@@ -389,7 +391,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.Grid grdSelST;
-        
+
         /// <summary>
         /// spnErrSelST control.
         /// </summary>
@@ -398,7 +400,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl spnErrSelST;
-        
+
         /// <summary>
         /// ddlInstitution control.
         /// </summary>
@@ -407,7 +409,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlInstitution;
-        
+
         /// <summary>
         /// ddlPhys control.
         /// </summary>
@@ -416,7 +418,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlPhys;
-        
+
         /// <summary>
         /// rdoConsY control.
         /// </summary>
@@ -425,7 +427,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rdoConsY;
-        
+
         /// <summary>
         /// rdoConsN control.
         /// </summary>
@@ -434,7 +436,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RadioButton rdoConsN;
-        
+
         /// <summary>
         /// ddlCategory control.
         /// </summary>
@@ -443,7 +445,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlCategory;
-        
+
         /// <summary>
         /// CallBackSF control.
         /// </summary>
@@ -452,7 +454,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.CallBack CallBackSF;
-        
+
         /// <summary>
         /// grdSF control.
         /// </summary>
@@ -461,7 +463,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.Grid grdSF;
-        
+
         /// <summary>
         /// STUDYFILE control.
         /// </summary>
@@ -470,7 +472,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.ClientTemplate STUDYFILE;
-        
+
         /// <summary>
         /// DELDCM control.
         /// </summary>
@@ -479,7 +481,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::ComponentArt.Web.UI.ClientTemplate DELDCM;
-        
+
         /// <summary>
         /// spnERR control.
         /// </summary>
@@ -488,7 +490,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl spnERR;
-        
+
         /// <summary>
         /// spnVal control.
         /// </summary>
@@ -497,7 +499,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl spnVal;
-        
+
         /// <summary>
         /// btnSubmit2 control.
         /// </summary>
@@ -506,7 +508,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlButton btnSubmit2;
-        
+
         /// <summary>
         /// btnClose2 control.
         /// </summary>
@@ -515,7 +517,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlButton btnClose2;
-        
+
         /// <summary>
         /// hdnID control.
         /// </summary>
@@ -524,7 +526,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnID;
-        
+
         /// <summary>
         /// hdnError control.
         /// </summary>
@@ -533,7 +535,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnError;
-        
+
         /// <summary>
         /// hdnSUID control.
         /// </summary>
@@ -542,7 +544,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnSUID;
-        
+
         /// <summary>
         /// hdnFilename control.
         /// </summary>
@@ -551,7 +553,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnFilename;
-        
+
         /// <summary>
         /// hdnFilePath control.
         /// </summary>
@@ -560,7 +562,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnFilePath;
-        
+
         /// <summary>
         /// hdnTempDCMFolder control.
         /// </summary>
@@ -569,7 +571,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnTempDCMFolder;
-        
+
         /// <summary>
         /// hdnTempIMGFolder control.
         /// </summary>
@@ -578,7 +580,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnTempIMGFolder;
-        
+
         /// <summary>
         /// hdnTempFolder control.
         /// </summary>
@@ -587,7 +589,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnTempFolder;
-        
+
         /// <summary>
         /// hdnDCMMODIFYEXEPATH control.
         /// </summary>
@@ -596,7 +598,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnDCMMODIFYEXEPATH;
-        
+
         /// <summary>
         /// hdnFTPABSPATH control.
         /// </summary>
@@ -605,7 +607,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnFTPABSPATH;
-        
+
         /// <summary>
         /// hdnTrackBy control.
         /// </summary>
@@ -614,7 +616,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnTrackBy;
-        
+
         /// <summary>
         /// hdnInstConsAppl control.
         /// </summary>
@@ -623,7 +625,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnInstConsAppl;
-        
+
         /// <summary>
         /// hdnTempAccNo control.
         /// </summary>
@@ -632,7 +634,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnTempAccNo;
-        
+
         /// <summary>
         /// hdnTempPID control.
         /// </summary>
@@ -641,7 +643,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnTempPID;
-        
+
         /// <summary>
         /// hdnModality control.
         /// </summary>
@@ -650,7 +652,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnModality;
-        
+
         /// <summary>
         /// hdnDOBDay control.
         /// </summary>
@@ -659,7 +661,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnDOBDay;
-        
+
         /// <summary>
         /// hdnModSvcAvbl control.
         /// </summary>
@@ -668,7 +670,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnModSvcAvbl;
-        
+
         /// <summary>
         /// hdnModSvcAvblAH control.
         /// </summary>
@@ -677,7 +679,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnModSvcAvblAH;
-        
+
         /// <summary>
         /// hdnModSvcAvblExInst control.
         /// </summary>
@@ -686,7 +688,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnModSvcAvblExInst;
-        
+
         /// <summary>
         /// hdnModSvcAvblAHExInst control.
         /// </summary>
@@ -695,7 +697,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnModSvcAvblAHExInst;
-        
+
         /// <summary>
         /// hdnSpcSvcAvbl control.
         /// </summary>
@@ -704,7 +706,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnSpcSvcAvbl;
-        
+
         /// <summary>
         /// hdnSpcSvcAvblAH control.
         /// </summary>
@@ -713,7 +715,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnSpcSvcAvblAH;
-        
+
         /// <summary>
         /// hdnSpcSvcAvblExInst control.
         /// </summary>
@@ -722,7 +724,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnSpcSvcAvblExInst;
-        
+
         /// <summary>
         /// hdnSpcSvcAvblAHExInst control.
         /// </summary>
@@ -731,7 +733,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnSpcSvcAvblAHExInst;
-        
+
         /// <summary>
         /// hdnAfterHrs control.
         /// </summary>
@@ -740,7 +742,7 @@ namespace VETRIS.CaseList {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden hdnAfterHrs;
-        
+
         /// <summary>
         /// hdnPriority control.
         /// </summary>

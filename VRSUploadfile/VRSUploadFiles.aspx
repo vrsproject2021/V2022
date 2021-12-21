@@ -66,11 +66,11 @@
                                 <div class="col-sm-2 col-xs-2" style="margin-top:5px;">
                                     <asp:Button ID="btnUpload" runat="server" OnClick="btnUpload_Click" CssClass="btn btn-warning" Text="Upload" />
                                 </div>
-
-                                
                             </div>
                         </div>
-                        
+                        <%-- <div class="col-sm-6 col-xs-12 text-right marginMobileTP10">
+                                        <asp:Button ID="btnUpload" runat="server" OnClick="btnUpload_Click" CssClass="btn btn-warning" Text="Upload" />
+                                    </div>--%>
                     </div>
                     <div class="row">
                         <div class="col-sm-12 col-xs-12 margin-bottom-10 marginMobileTP10">

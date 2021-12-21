@@ -23,7 +23,10 @@
 <body>
     <form id="attachme" method="post" enctype="multipart/form-data" runat="server">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 userControl" style="padding:10px;">
-            <Bulk:Uploader runat="server" ID="Uploader1"></Bulk:Uploader>
+           
+            <asp:FileUpload id="FileUpLoad1" runat="server" />
+            <asp:Button id="UploadBtn" Text="Upload File" OnClick="UploadBtn_Click" runat="server" Width="105px" />
+            <asp:Label ID="Label1" runat="server" BackColor="Lime" Font-Size="Medium" Text="Label"></asp:Label> 
         </div>
     </form>
 </body>

@@ -38,9 +38,11 @@ function btnSubmit_OnClick() {
             if (HasDICOM == "Y") {
                 AjaxPro.timeoutPeriod = 1800000;
                 VRSManualSubmissionUploadFile.GetStudyDetails(parent.GsStoredValue, UserID, ShowProcess);
+                
             }
             else {
                 parent.GsRetStatus = "false";
+                
                 parent.GsNavURL = "CaseList/VRSManualSubmission.aspx?uid=" + UserID + "&urid=" + UserRoleID.value + "&mid=0";
                 btnDlgClose_Onclick();
             }
@@ -54,12 +56,17 @@ function btnSubmit_OnClick() {
 
 }
 function GetFileList() {
+    
     var itemIndex = 0; 
     var gridItem;
     var arrSF = new Array(); var idx = 0;
-    
-
     while (gridItem = grdSF.get_table().getRow(itemIndex)) {
+       
+        //alert(gridItem.Data[0].toString());
+        //alert(gridItem.Data[1].toString());
+        //alert(gridItem.Data[2].toString());
+        //alert(gridItem.Data[3].toString());
+        
         arrSF[idx] = gridItem.Data[0].toString();
         arrSF[idx + 1] = gridItem.Data[1].toString();
         arrSF[idx + 2] = gridItem.Data[2].toString(); if (arrSF[idx + 2] == 'D') HasDICOM = 'Y';
